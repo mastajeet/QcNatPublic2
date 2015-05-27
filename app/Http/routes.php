@@ -11,11 +11,13 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'PagesController@index');
+Route::get('/formation/', 'PagesController@formation');
+Route::get('/prescolaire/', 'PagesController@prescolaire');
+Route::get('/cours/{slug}/', 'PagesController@contenu');
 
-Route::get('home', 'HomeController@index');
+Route::get('/junior/', 'PagesController@junior');
+Route::get('/adulte/', 'PagesController@adulte');
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+
+
