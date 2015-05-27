@@ -18,8 +18,8 @@ class niveau {
 
     public function __construct($id){
         $this->image = $id;
-        $this->oneliner =file('content/oneliner'.$id.'.inc');
-        $this->contenu =  file('content/content'.$id.'.inc');
+        $this->oneliner =file_get_contents('content/oneliner'.$id.'.inc');
+        $this->contenu =  file_get_contents('content/content'.$id.'.inc');
         $this->categorie = $this->getCategorie($id);
 
 
@@ -41,8 +41,20 @@ class niveau {
 
                 return 'junior';
 
+            CASE 'etoile' :
+            CASE 'canard' :
+            CASE 'tortue' :
+            CASE 'loutre' :
+            CASE 'salamandre' :
+            CASE 'poisson' :
+            CASE 'crocodile' :
+            CASE 'baleine' :
 
-            
+                return 'prescolaire';
+
+
+
+
         }
         return 'other';
     }

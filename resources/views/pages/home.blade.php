@@ -23,7 +23,7 @@
 
                             <h6 class="futura">Moniteur et assistants moniteur : Envoyez votre candidature en ligne <a href="index.php?Section=CV">en cliquant ici</a></h6>
 
-                            <h6 class="futura">Procédure de remboursement:  <a href="?Section=Procedure">cliquez ici</a></h6>
+                            <h6 class="futura">Procédure de remboursement:  <a href="/procedure/">cliquez ici</a></h6>
 
                         </td>
                     </tr>
@@ -75,7 +75,7 @@
                                 <tr height="" class="">
                                     <td width="50%" colspan=1 valign=top class="">
                                         <div align=right>
-                                            <a href="index.php?Section=Raison" target=""><span class=link><img src=img/plus.png border=0></span></a>
+                                            <a href="/raisons/" target=""><span class=link><img src=img/plus.png border=0></span></a>
                                         </div>
                                     </td>
                                     <td width="50%" colspan=1 valign=top class="">
@@ -95,10 +95,10 @@
                             <table width="100%" cellspacing=2 cellpadding=2 border=0 align="">
                                 <tr height="" class="">
                                     <td width="40%" colspan=1 valign=top class="">
-                                        <a href="index.php?Section=Prescolaire" target=""><span class=link><img src='img/prescolaire.png' border=0></span></a>
+                                        <a href="/prescolaire/" target=""><span class=link><img src='img/prescolaire.png' border=0></span></a>
                                     </td>
                                     <td width="60%" colspan=1 valign=top class="">
-                                        <h6 class="futura"><a href=index.php?Section=Prescolaire>Cours Préscolaire</a></h6>
+                                        <h6 class="futura"><a href=/prescolaire/>Cours Préscolaire</a></h6>
 
                                         <p><span class="Texte">Les cours colorés du programmes préscolaire sont parfaits pour les enfants de 6 mois à 6 ans</span></p>
 
@@ -117,10 +117,10 @@
                             <table width="100%" cellspacing=2 cellpadding=2 border=0 align="">
                                 <tr height="" class="">
                                     <td width="40%" colspan=1 valign=top class="">
-                                        <a href="index.php?Section=Junior" target=""><span class=link><img src='img/junior.png' border=0></span></a>
+                                        <a href="/junior/" target=""><span class=link><img src='img/junior.png' border=0></span></a>
                                     </td>
                                     <td width="60%" colspan=1 valign=top class="">
-                                        <h6 class="futura"><a href=index.php?Section=Junior>Cours Juniors</span></a></h6>
+                                        <h6 class="futura"><a href=/junior/>Cours Juniors</span></a></h6>
 
                                         <p><span class="Texte">Les cours juniors offrent une gradation numérotée aidant les enfants a visualiser leur progression dans l'apprentissages des nages et des techniques aquatiques</span></p>
 
@@ -139,10 +139,10 @@
                             <table width="100%" cellspacing=2 cellpadding=2 border=0 align="">
                                 <tr height="" class="">
                                     <td width="40%" colspan=1 valign=top class="">
-                                        <a href="index.php?Section=Adulte" target=""><span class=link><img src='img/adulte.png' border=0></span></a>
+                                        <a href="/adulte/" target=""><span class=link><img src='img/adulte.png' border=0></span></a>
                                     </td>
                                     <td width="60%" colspan=1 valign=top class="">
-                                        <h6 class="futura"><a href=index.php?Section=Adulte>Cours Adultes</a></h6>
+                                        <h6 class="futura"><a href=/adulte/>Cours Adultes</a></h6>
 
                                         <p><span class="Texte">Les cours pour adultes sont offerts dans une grande variété, autant pour ceux qui veulent affronter leur peur de l'eau, que pour ceux qui veulent maitriser un style de nage en particulier, en passant par les cours excercices aquatiques pour se mettre en forme </span></p>
 
@@ -161,10 +161,10 @@
                             <table width="100%" cellspacing=2 cellpadding=2 border=0 align="">
                                 <tr height="" class="">
                                     <td width="40%" colspan=1 valign=top class="">
-                                        <a href="index.php?Section=Formation" target=""><span class=link><img src='img/formation.png' border=0></span></a>
+                                        <a href="/formation/" target=""><span class=link><img src='img/formation.png' border=0></span></a>
                                     </td>
                                     <td width="60%" colspan=1 valign=top class="">
-                                        <h6 class="futura"><a href=index.php?Section=Formation>Cours de formation</a></h6>
+                                        <h6 class="futura"><a href=/formation/>Cours de formation</a></h6>
 
                                         <p><span class="Texte">Ces cours parrainées par la croix-rouge et la sociétés de sauvetage offrent l'enseignement nécessaire pour devenir sauveteur ou moniteur de natation.</span></p>
 

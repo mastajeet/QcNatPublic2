@@ -11,10 +11,8 @@
                             <a href="/{{ $niveau->categorie }}/" target=""><span class=link><img src="/img/{{ $niveau->image }}.png" border=0></span></a>
                         </td>
                         <td width="60%" colspan=1 valign=top class="">
-                            @foreach($niveau->oneliner as $line)
-                                {!! $line !!}
-                            @endforeach
 
+                            {!! $niveau->oneliner !!}
 
 
                         </td>
@@ -27,9 +25,8 @@
             <td width="10%" colspan=1 valign=top class="">
             </td>
             <td width="90%" colspan=1 valign=top class="">
-                @foreach($niveau->contenu as $line)
-                    {!! $line !!}
-                @endforeach
+
+               {!! $niveau->contenu !!}
 
             </td>
         </tr>

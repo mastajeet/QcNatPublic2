@@ -43,7 +43,7 @@
                 <ul>
 
                     @foreach($menu as $k=>$v)
-                        <li><a href=index.php?Section={{$k}}><img src='/img/{{$v}}' border=0></a></li>
+                        <li><a href=/{{$k}}><img src='/img/{{$v}}' border=0></a></li>
                     @endforeach
 
                 </ul>
@@ -72,9 +72,37 @@
                 <div class="cl">&nbsp;</div>
                 <!-- Short Box -->
                 <div class="shortbox fl">
-                    <div class="box-t notext">&nbsp;</div>
+                    <div class="box-t notext"></div>
                     <div class="box-cnt">
-                        @yield('TrucDeLaSemaine')
+
+
+
+                        <table width="100%" cellspacing=2 cellpadding=2 border=0 align="">
+                            <tr height="" class="">
+                                <td width="100%" colspan=2 valign=top class="">
+                                    <span class=Titre><p><h4 class="futura">Truc de la semaine</h2><p></span>
+                                </td>
+                            </tr>
+                            <tr height="" class="">
+                                <td width="30%" colspan=1 valign=top class="">
+                                    <img src="/img/{{ $truc->niveau }}.png" >
+                                </td>
+                                <td width="80%" colspan=1 valign=top class="">
+                                    <span class=SousTitre>{{ $truc->probleme }}</span>
+                                    <br />
+
+                                    <br />
+
+                                    <span class=Texte>{{ $truc->solution }}</span>
+                                    <br />
+
+                                    <span class=texte></span>
+                                </td>
+                            </tr>
+                        </table>
+
+
+
                     </div>
                     <div class="box-b notext">&nbsp;</div>
                 </div>

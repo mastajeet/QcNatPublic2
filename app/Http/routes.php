@@ -12,6 +12,8 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('/accueil', 'PagesController@index');
+
 Route::get('/formation/', 'PagesController@formation');
 Route::get('/prescolaire/', 'PagesController@prescolaire');
 Route::get('/cours/{slug}/', 'PagesController@contenu');
@@ -19,5 +21,7 @@ Route::get('/cours/{slug}/', 'PagesController@contenu');
 Route::get('/junior/', 'PagesController@junior');
 Route::get('/adulte/', 'PagesController@adulte');
 
+Route::get('/raisons/', 'PagesController@raisons');
+Route::get('/procedure/', 'PagesController@procedure');
 
 
