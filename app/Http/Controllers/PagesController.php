@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\niveau;
 use App\raison;
-use App\truc;
+use App\Truc;
 
 
 use Illuminate\Http\Request;

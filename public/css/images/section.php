@@ -37,7 +37,7 @@
     BREAK;
 
     CASE "ModifieTruc":
-        include("truc.php");
+        include("Truc.php");
     BREAK;
 
 
